@@ -14,7 +14,8 @@
 
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-
+    <link href="Content/site_main.css" rel="stylesheet" />
+    
 </head>
 <body>
     <form runat="server">
@@ -53,6 +54,11 @@
                         <li><a runat="server" href="~/">Home</a></li>
                         <li><a runat="server" href="~/About">About</a></li>
                         <li><a runat="server" href="~/Contact">Contact</a></li>
+                        <li><a runat="server" href="~/UI/EmployeeInformation.aspx">Employee Information</a></li>
+                        <li><a runat="server" href ="~/UI/LeaveEntry.aspx">Leave Entry</a></li>
+                        <li><a runat="server" href="~/UI/Attendence.aspx">Attendence</a></li>
+                        <li><a runat="server" href="~/UI/DepartmentSetup.aspx">Department</a></li>
+                        <li><a runat="server" href="~/UI/CompanySetup.aspx">Company</a></li>
                     </ul>
                 </div>
             </div>
@@ -62,7 +68,7 @@
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
+                <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application (Done by Sadia Islam Mou)</p>
             </footer>
         </div>
 

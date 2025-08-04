@@ -44,5 +44,10 @@ namespace HR.UI
             lblEmployeeEmail.Text = string.Empty;
             lblEmployeeEmail.Text = txtEmployeeEmail.Text;
         }
+
+        protected void ddlEmployeeBloodGroup_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -112,6 +112,7 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="Content\site_main.css" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -154,7 +155,11 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
+    <Content Include="UI\Attendence.aspx" />
+    <Content Include="UI\CompanySetup.aspx" />
+    <Content Include="UI\DepartmentSetup.aspx" />
     <Content Include="UI\EmployeeInformation.aspx" />
+    <Content Include="UI\LeaveEntry.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -202,12 +207,68 @@
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
+    <Compile Include="Site_AttendenceMain.Master.cs">
+      <DependentUpon>Site_AttendenceMain.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site_AttendenceMain.Master.designer.cs">
+      <DependentUpon>Site_AttendenceMain.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site_CompanyMain.Master.cs">
+      <DependentUpon>Site_CompanyMain.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site_CompanyMain.Master.designer.cs">
+      <DependentUpon>Site_CompanyMain.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site_DeptMain.Master.cs">
+      <DependentUpon>Site_DeptMain.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site_DeptMain.Master.designer.cs">
+      <DependentUpon>Site_DeptMain.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site_mainMaster.Master.cs">
+      <DependentUpon>Site_mainMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site_mainMaster.Master.designer.cs">
+      <DependentUpon>Site_mainMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Attendence.aspx.cs">
+      <DependentUpon>Attendence.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Attendence.aspx.designer.cs">
+      <DependentUpon>Attendence.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\CompanySetup.aspx.cs">
+      <DependentUpon>CompanySetup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\CompanySetup.aspx.designer.cs">
+      <DependentUpon>CompanySetup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\DepartmentSetup.aspx.cs">
+      <DependentUpon>DepartmentSetup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\DepartmentSetup.aspx.designer.cs">
+      <DependentUpon>DepartmentSetup.aspx</DependentUpon>
+    </Compile>
     <Compile Include="UI\EmployeeInformation.aspx.cs">
       <DependentUpon>EmployeeInformation.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="UI\EmployeeInformation.aspx.designer.cs">
       <DependentUpon>EmployeeInformation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\LeaveEntry.aspx.cs">
+      <DependentUpon>LeaveEntry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\LeaveEntry.aspx.designer.cs">
+      <DependentUpon>LeaveEntry.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
@@ -224,6 +285,10 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
+    <Content Include="Site_mainMaster.Master" />
+    <Content Include="Site_AttendenceMain.Master" />
+    <Content Include="Site_CompanyMain.Master" />
+    <Content Include="Site_DeptMain.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

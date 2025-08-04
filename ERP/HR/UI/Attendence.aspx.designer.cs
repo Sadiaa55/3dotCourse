@@ -10,16 +10,7 @@
 namespace HR.UI {
     
     
-    public partial class EmployeeInformation {
-        
-        /// <summary>
-        /// form1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+    public partial class Attendence {
         
         /// <summary>
         /// Label1 control.
@@ -31,31 +22,22 @@ namespace HR.UI {
         protected global::System.Web.UI.WebControls.Label Label1;
         
         /// <summary>
-        /// TxtEmployeeName control.
+        /// txtEmpId control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtEmployeeName;
+        protected global::System.Web.UI.WebControls.TextBox txtEmpId;
         
         /// <summary>
-        /// BtnShow control.
+        /// lblEmpId control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BtnShow;
-        
-        /// <summary>
-        /// lblEmployeeName control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblEmployeeName;
+        protected global::System.Web.UI.WebControls.Label lblEmpId;
         
         /// <summary>
         /// Label2 control.
@@ -67,31 +49,22 @@ namespace HR.UI {
         protected global::System.Web.UI.WebControls.Label Label2;
         
         /// <summary>
-        /// txtEmployeeNumber control.
+        /// txtDate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtEmployeeNumber;
+        protected global::System.Web.UI.WebControls.TextBox txtDate;
         
         /// <summary>
-        /// btnFind control.
+        /// lblDate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnFind;
-        
-        /// <summary>
-        /// lblEmployeeNumber control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblEmployeeNumber;
+        protected global::System.Web.UI.WebControls.Label lblDate;
         
         /// <summary>
         /// Label3 control.
@@ -103,31 +76,22 @@ namespace HR.UI {
         protected global::System.Web.UI.WebControls.Label Label3;
         
         /// <summary>
-        /// txtEmployeeEmail control.
+        /// ddlStatus control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtEmployeeEmail;
+        protected global::System.Web.UI.WebControls.DropDownList ddlStatus;
         
         /// <summary>
-        /// btnEmployeeEmail control.
+        /// lblStatus control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnEmployeeEmail;
-        
-        /// <summary>
-        /// lblEmployeeEmail control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblEmployeeEmail;
+        protected global::System.Web.UI.WebControls.Label lblStatus;
         
         /// <summary>
         /// Label4 control.
@@ -139,30 +103,57 @@ namespace HR.UI {
         protected global::System.Web.UI.WebControls.Label Label4;
         
         /// <summary>
-        /// ddlEmployeeBloodGroup control.
+        /// txtInTime control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlEmployeeBloodGroup;
+        protected global::System.Web.UI.WebControls.TextBox txtInTime;
         
         /// <summary>
-        /// btnEmployeeBloodGroup control.
+        /// lblInTime control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnEmployeeBloodGroup;
+        protected global::System.Web.UI.WebControls.Label lblInTime;
         
         /// <summary>
-        /// lblEmployeeBloodGroup control.
+        /// Label5 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblEmployeeBloodGroup;
+        protected global::System.Web.UI.WebControls.Label Label5;
+        
+        /// <summary>
+        /// txtOutTime control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtOutTime;
+        
+        /// <summary>
+        /// lblOutTime control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblOutTime;
+        
+        /// <summary>
+        /// btnShowAttendence control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnShowAttendence;
     }
 }

@@ -10,16 +10,7 @@
 namespace HR.UI {
     
     
-    public partial class EmployeeInformation {
-        
-        /// <summary>
-        /// form1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+    public partial class Company {
         
         /// <summary>
         /// Label1 control.
@@ -31,31 +22,22 @@ namespace HR.UI {
         protected global::System.Web.UI.WebControls.Label Label1;
         
         /// <summary>
-        /// TxtEmployeeName control.
+        /// txtCompanyID control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtEmployeeName;
+        protected global::System.Web.UI.WebControls.TextBox txtCompanyID;
         
         /// <summary>
-        /// BtnShow control.
+        /// lblCompanyID control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BtnShow;
-        
-        /// <summary>
-        /// lblEmployeeName control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblEmployeeName;
+        protected global::System.Web.UI.WebControls.Label lblCompanyID;
         
         /// <summary>
         /// Label2 control.
@@ -67,31 +49,22 @@ namespace HR.UI {
         protected global::System.Web.UI.WebControls.Label Label2;
         
         /// <summary>
-        /// txtEmployeeNumber control.
+        /// txtCompanyName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtEmployeeNumber;
+        protected global::System.Web.UI.WebControls.TextBox txtCompanyName;
         
         /// <summary>
-        /// btnFind control.
+        /// lblCompanyName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnFind;
-        
-        /// <summary>
-        /// lblEmployeeNumber control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblEmployeeNumber;
+        protected global::System.Web.UI.WebControls.Label lblCompanyName;
         
         /// <summary>
         /// Label3 control.
@@ -103,31 +76,22 @@ namespace HR.UI {
         protected global::System.Web.UI.WebControls.Label Label3;
         
         /// <summary>
-        /// txtEmployeeEmail control.
+        /// txtCompanyAddress control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtEmployeeEmail;
+        protected global::System.Web.UI.WebControls.TextBox txtCompanyAddress;
         
         /// <summary>
-        /// btnEmployeeEmail control.
+        /// lblCompanyAddress control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnEmployeeEmail;
-        
-        /// <summary>
-        /// lblEmployeeEmail control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblEmployeeEmail;
+        protected global::System.Web.UI.WebControls.Label lblCompanyAddress;
         
         /// <summary>
         /// Label4 control.
@@ -139,30 +103,30 @@ namespace HR.UI {
         protected global::System.Web.UI.WebControls.Label Label4;
         
         /// <summary>
-        /// ddlEmployeeBloodGroup control.
+        /// txtCompanyPhnNum control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddlEmployeeBloodGroup;
+        protected global::System.Web.UI.WebControls.TextBox txtCompanyPhnNum;
         
         /// <summary>
-        /// btnEmployeeBloodGroup control.
+        /// lblCompanyPhnNum control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnEmployeeBloodGroup;
+        protected global::System.Web.UI.WebControls.Label lblCompanyPhnNum;
         
         /// <summary>
-        /// lblEmployeeBloodGroup control.
+        /// btnApply control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblEmployeeBloodGroup;
+        protected global::System.Web.UI.WebControls.Button btnApply;
     }
 }

@@ -70,7 +70,9 @@
         </div>
         <table class="auto-style2">
             <tr>
-                <td class="auto-style1">Phone Number</td>
+                <td class="auto-style1">
+                    <asp:Label ID="Label2" runat="server" Text="Phone Number"></asp:Label>
+                </td>
                 <td class="auto-style3">:</td>
                 <td>
                     <asp:TextBox ID="txtEmployeeNumber" runat="server"></asp:TextBox>
@@ -93,7 +95,9 @@
         </table>
         <table style="width:100%;">
             <tr>
-                <td class="auto-style7">Email</td>
+                <td class="auto-style7">
+                    <asp:Label ID="Label3" runat="server" Text="Email"></asp:Label>
+                </td>
                 <td class="auto-style8">:</td>
                 <td class="auto-style9">
                     <asp:TextBox ID="txtEmployeeEmail" runat="server"></asp:TextBox>
@@ -116,7 +120,9 @@
         </table>
         <table style="width:100%;">
             <tr>
-                <td class="auto-style1">Blood Group</td>
+                <td class="auto-style1">
+                    <asp:Label ID="Label4" runat="server" Text="Blood Group"></asp:Label>
+                </td>
                 <td class="auto-style3">:</td>
                 <td>
                     <asp:DropDownList ID="ddlEmployeeBloodGroup" runat="server">
